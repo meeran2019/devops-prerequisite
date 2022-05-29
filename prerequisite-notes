@@ -1,0 +1,33 @@
+---------------------------------------------------------------------------------------------------------
+LINUX BASICS
+---------------------------------------------------------------------------------------------------------
+
+Shell Types: 
+    Bourne Shell
+    Bourne Again Shell (Bash)
+    Z Shell 
+    C Shell 
+
+    echo $SHELL     -   It shows which shell type is using. 
+
+
+Commands: 
+
+    ls      -   list content 
+    echo    -   print 
+    cd      -   change directory 
+    pwd     -   present working directory
+    mkdir   -   to create new directory 
+    cd path;mkdir dir;echo display          -   to run multiple commands, use ; 
+
+    mkdir -p /tmp/asia/tamilnadu/chennai    -   it is recursively create the parent directory if not. 
+    rm -r /tmp/asia/tamilnadu               -   It removes all of content under tamilnadu directory recursively. 
+
+    cp -r direct1 /tmp/direct2              -   copy all of the contents from 1 directory to another. 
+    touch                                   -   creates empty file.
+    cat > file-name.txt                     -   Add contents to file. Ctrl+D to save. 
+    cat file-name.txt                       -   to display contents of file. 
+    cp source-file target-file              -   to copy file from one path to another. 
+    mv source-file target-file              -   to move from one place to another. use for rename file.
+    rm file-name                            -   to delete a file.
+
